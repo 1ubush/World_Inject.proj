@@ -6,14 +6,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>World Inject (main)</title>
    <link rel="stylesheet" href="style.css">
-   <script src="script/massive.js"></script>
 </head>
 
 <body>
 
 
    <div class="conteiner">
-
       <nav class="nav">
          <span class="nav_logo">
             <img src="img/logo.png" alt="Logo">
@@ -23,11 +21,11 @@
                <p>
                   <div style="display: flex; flex-direction: row; margin-bottom: 10px;">
                      <img style="margin-right: 10px;" src="img/2icon.png" alt="number">
-                     +380675589412
+                     <p>+380982462702</p>
                   </div>
                   <div style="display: flex; flex-direction: row;">
                      <img style="margin-right: 10px;" src="img/1icon.png" alt="email">
-                     info@worldinject.com.ua 
+                     <p>info@worldinject.com.ua</p> 
                   </div>
                </p>
             </div>
@@ -46,16 +44,25 @@
 
       <div class="over_block">
          <div class="left_icon">
+            <div style="display: flex; flex-direction: column;">
+               <button style="margin-bottom: 5px;" class="prev">&#8657</button>
+               <button style="margin-top: 5px;" class="next">&#8659</button>
+            </div>
             <center class="left_text">Лиття пластмас <br> під тиском</center>
          </div>
          <div class="main_photo">
-            <div class="left_main_slide">
-
+            <div class="slider">
+               <div class="slider_line">
+                  <img class="slider_photo" src="img/1.jpg" alt="1">
+                  <img class="slider_photo" src="img/2.jpg" alt="2">
+                  <img class="slider_photo" src="img/3.jpg" alt="3">
+                  <img class="slider_photo" src="img/4.jpg" alt="4">
+                  <img class="slider_photo" src="img/5.jpg" alt="5">
+               </div>
             </div>
          </div>
          <div class="right_icon"></div>
       </div>
-
       <div class="contacts_block">
          <div class="category">
             <div class="bar">
@@ -64,13 +71,13 @@
                   Меню
                </span>
                <span id="click">
-                  <a style="color: #365F91; margin-left: 10px;" href="#"> &#8658 Головна</a>
+                  <a class="tt" href="#"> &#8658 Головна</a>
                </span>
             </div>
             <div class="main_text">
-               <span style="margin-left: 20px; display: flex; flex-direction: row; align-items: center;"><div style="width: 10px; margin-right: 10px; height: 10px; background-color: #365F91;"></div>Вироби з пластику</span>
+               <span style="color: #365F91; font-weight: bold; margin-left: 20px; display: flex; flex-direction: row; align-items: center;"><div style="width: 10px; margin-right: 10px; height: 10px; background-color: #365F91;"></div>Вироби з пластику</span>
                <hr style="width: 95%;">
-               <p style="font-size: 13px; margin-right: 20px; margin-left: 20px; text-align: justify;">
+               <p style="font-size: 14px; margin-right: 20px; margin-left: 20px; text-align: justify;">
                   Наша компанія спеціалізується на виготовленні продукції з пластмас високої якості, як господарчих товарів широкого вжитку, так і специфічних товарів за індивідуальним замовленням на сучасному обладнанні. 
                   Ми володіємо парком машин виробництва австрійської фірми Еngel, лідера в розробці високошвидкісних термопластавтоматів. Маємо можливість виготовляти трьохкольорові вироби, завдяки унікальній машині ТПА Engel Victory Combi.
                   Також маємо повністю електричну машину ТПА Engel E-motion, яка підходить для випуску товарів у фармаіндустрії. 
@@ -79,13 +86,28 @@
                </p>
                <span class="bottom_bar">
                   <div class="fotter_bar">
-                     Продукція
+                     <div style="display: flex; flex-direction: row;">
+                        <div style="width: 10px; height: 10px; background-color: #365F91; margin-left: 5px; margin-top: 7px; margin-right: 5px;"></div>
+                        <p style="font-weight: bold; color: #365F91;">Продукція</p>
+                     </div>
+                     <hr>
+                     <p style="font-size: 15px;">Шукаємо постійних партнерів зі збуту нашої продукції.</p>
                   </div>
                   <div class="fotter_bar">
-                     Пресс-форми
+                     <div style="display: flex; flex-direction: row;">
+                        <div style="width: 10px; height: 10px; background-color: #365F91; margin-left: 5px; margin-top: 7px; margin-right: 5px;"></div>
+                        <p style="font-weight: bold; color: #365F91;">Пресс-форми</p>
+                     </div>
+                     <hr>
+                     <p style="font-size: 15px;">Купуємо пресс-форми б/у.</p>
                   </div>
                   <div class="fotter_bar">
-                     Полімери у гранулах
+                     <div style="display: flex; flex-direction: row;">
+                        <div style="width: 10px; height: 10px; background-color: #365F91; margin-left: 5px; margin-top: 7px; margin-right: 5px;"></div>
+                        <p style="font-weight: bold; color: #365F91;">Полімери у гранулах</p>
+                     </div>
+                     <hr>
+                     <p style="font-size: 15px;">Розглянемо пропозиції з покупки сировини - полімери у гранулах. Цікавить як первинна, так і вторинна сировина.</p>
                   </div>
                </span>
             </div>
@@ -107,6 +129,9 @@
       </footer>
    </div>
 
+   <!-- <script src="script/script.js"></script> -->
+   <script src="script/massive.js"></script>
+   <script src="script/slider.js"></script>
 </body>
 
 </html>
