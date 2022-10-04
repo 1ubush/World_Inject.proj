@@ -6,14 +6,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>World Inject (contacts)</title>
    <link rel="stylesheet" href="style.css">
-   <script src="script/massive.js"></script>
 </head>
 
 <body>
 
 
    <div class="conteiner">
-
       <nav class="nav">
          <span class="nav_logo">
             <img src="img/logo.png" alt="Logo">
@@ -21,39 +19,64 @@
          <span class="nav_contacts">
             <div class="contacts">
                <p>
-                  +38 0675589412
-                  <br>
-                  info@worldinject.com.ua 
+                  <div style="display: flex; flex-direction: row; margin-bottom: 10px;">
+                     <img style="margin-right: 10px;" src="img/2icon.png" alt="number">
+                     <p>+380982462702</p>
+                  </div>
+                  <div style="display: flex; flex-direction: row;">
+                     <img style="margin-right: 10px;" src="img/1icon.png" alt="email">
+                     <p>info@worldinject.com.ua</p> 
+                  </div>
                </p>
             </div>
          </span>
       </nav>
       <span class="search">
          <div class="nav_button">
-            <a class="button" href="#">Головна</a>
+            <a class="button" href="index.html">Головна</a>
             <hr style="height: 80%; width: 1px;">
             <a class="button" href="#">Обладнання</a>
             <hr style="height: 80%; width: 1px;">
-            <a class="button" href="#">Контакти</a>
+            <a class="button" href="indexContacts.html">Контакти</a>
          </div>
          <input class="search_panel" type="text">
       </span>
 
       <div class="over_block">
          <div class="left_icon">
+            <div style="display: flex; flex-direction: column;">
+               <!-- <button style="margin-bottom: 5px;" class="prev">&#8657</button>
+               <button style="margin-top: 5px;" class="next">&#8659</button> -->
+            </div>
             <center class="left_text">Лиття пластмас <br> під тиском</center>
          </div>
          <div class="main_photo">
-            <img src="#" alt="main_photo">
+            <div class="slider">
+               <div class="slider_line">
+                  <img class="slider_photo" src="img/1.jpg" alt="1">
+                  <img class="slider_photo" src="img/2.jpg" alt="2">
+                  <img class="slider_photo" src="img/3.jpg" alt="3">
+                  <img class="slider_photo" src="img/4.jpg" alt="4">
+                  <img class="slider_photo" src="img/5.jpg" alt="5">
+               </div>
+            </div>
          </div>
          <div class="right_icon"></div>
       </div>
-
       <div class="contacts_block">
          <div class="category">
-            <script src="script/script.js">
-               
-            </script>
+            <div class="bar">
+                  <span class="click">
+                     <div style="background-color: white; width: 15px; height: 15px; margin-left: 10px; margin-right: 10px;"></div>
+                     Меню
+                  </span>
+                  <span id="click">
+                     <a class="tt" href="#"> &#8658 Контакти</a>
+                  </span>
+               </div>
+               <div class="information">
+
+               </div>
          </div>
          <div class="our_proj">
             <div style="background-color: white; width: 15px; height: 15px; margin-left: 10px;"></div>
@@ -72,6 +95,10 @@
       </footer>
    </div>
 
+
+   <script src="script/script.js"></script>
+   <script src="script/massive.js"></script>
+   <script src="script/slider.js"></script>
 </body>
 
 </html>
