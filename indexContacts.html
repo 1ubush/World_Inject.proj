@@ -44,22 +44,22 @@
 
       <div class="over_block">
          <div class="left_icon">
-            <div style="display: flex; flex-direction: column;">
-               <button style="margin-bottom: 5px;" class="prev">&#8657</button>
-               <button style="margin-top: 5px;" class="next">&#8659</button>
-            </div>
             <center class="left_text">Лиття пластмас <br> під тиском</center>
          </div>
          <div class="main_photo">
             <div class="slider">
                <div class="slider_line">
-                  <img class="slider_photo" src="img/1.jpg" alt="1">
-                  <img class="slider_photo" src="img/2.jpg" alt="2">
-                  <img class="slider_photo" src="img/3.jpg" alt="3">
-                  <img class="slider_photo" src="img/4.jpg" alt="4">
-                  <img class="slider_photo" src="img/5.jpg" alt="5">
+                  <script>
+                     for (let i = 0; i < 5; i++) {
+                        document.write(`
+                           <img class="slider_photo" src="img/${i + 1}.jpg" alt="1">
+                        `)
+                     }
+                  </script>
                </div>
             </div>
+            <button style="position: absolute; margin-left: 440px; margin-top: 210px;" class="next">&#10230</button>
+            <button style="position: absolute; margin-left: 5px; margin-top: 210px;" class="prev">&#10229</button>
          </div>
          <div class="right_icon"></div>
       </div>

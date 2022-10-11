@@ -47,21 +47,22 @@
             <div style="display: flex; flex-direction: column;">
 
             </div>
-            <center class="left_text">Лиття пластмас <br> під тиском
-               <button style="margin-bottom: 5px;" class="prev">&#8657</button>
-               <button style="margin-top: 5px;" class="next">&#8659</button>
-            </center>
+            <center class="left_text">Лиття пластмас <br> під тиском</center>
          </div>
          <div class="main_photo">
             <div class="slider">
                <div class="slider_line">
-                  <img class="slider_photo" src="img/1.jpg" alt="1">
-                  <img class="slider_photo" src="img/2.jpg" alt="2">
-                  <img class="slider_photo" src="img/3.jpg" alt="3">
-                  <img class="slider_photo" src="img/4.jpg" alt="4">
-                  <img class="slider_photo" src="img/5.jpg" alt="5">
+                  <script>
+                     for (let i = 0; i < 5; i++) {
+                        document.write(`
+                           <img class="slider_photo" src="img/${i + 1}.jpg" alt="1">
+                        `)
+                     }
+                  </script>
                </div>
             </div>
+            <button style="position: absolute; margin-left: 440px; margin-top: 210px;" class="next">&#10230</button>
+            <button style="position: absolute; margin-left: 5px; margin-top: 210px;" class="prev">&#10229</button>
          </div>
          <div class="right_icon"></div>
       </div>
@@ -93,7 +94,7 @@
                         <p style="font-weight: bold; color: #365F91;">Продукція</p>
                      </div>
                      <hr>
-                     <p style="font-size: 15px;">Шукаємо постійних партнерів зі збуту нашої продукції.</p>
+                     <p style="font-size: 13px;">Шукаємо постійних партнерів зі збуту нашої продукції.</p>
                   </div>
                   <div class="fotter_bar">
                      <div style="display: flex; flex-direction: row;">
@@ -101,7 +102,7 @@
                         <p style="font-weight: bold; color: #365F91;">Пресс-форми</p>
                      </div>
                      <hr>
-                     <p style="font-size: 15px;">Купуємо пресс-форми б/у.</p>
+                     <p style="font-size: 13px;">Купуємо пресс-форми б/у.</p>
                   </div>
                   <div class="fotter_bar">
                      <div style="display: flex; flex-direction: row;">
@@ -109,7 +110,7 @@
                         <p style="font-weight: bold; color: #365F91;">Полімери у гранулах</p>
                      </div>
                      <hr>
-                     <p style="font-size: 15px;">Розглянемо пропозиції з покупки сировини - полімери у гранулах. Цікавить як первинна, так і вторинна сировина.</p>
+                     <p style="font-size: 13px;">Розглянемо пропозиції з покупки сировини - полімери у гранулах. Цікавить як первинна, так і вторинна сировина.</p>
                   </div>
                </span>
             </div>
@@ -118,7 +119,7 @@
             <div style="background-color: white; width: 15px; height: 15px; margin-left: 10px;"></div>
             <p style="margin-left: 10px; color: white;">Наше виробництво</p>
          </div>
-         <div class="map">
+         <div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1795.1571994936562!2d30.479986761117914!3d50.48326467233241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cde5e5613e39%3A0xf772c1acaf6124c!2z0YPQuy4g0KLRg9C70YzRh9C40L3RgdC60LDRjywgNiwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1664798926462!5m2!1sru!2sua" width="75%" height="95%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
          </div>
       </div>

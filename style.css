@@ -87,6 +87,7 @@ select {
    border: 1px solid gainsboro;
    width: 10%;
    height: 70%;
+   text-indent: 10px;
 }
 .nav_button {
    display: flex;
@@ -175,7 +176,15 @@ select {
    justify-content: center;
    align-items: center;
    width: 95%;
-   height: 80%;
+   height: 50%;
+   border: 3px double rgb(177, 177, 177);
+}
+#map {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 95%;
+   height: 50%;
    border: 3px double rgb(177, 177, 177);
 }
 .footer {
@@ -248,7 +257,7 @@ select {
 }
 .slider_line {
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    position: relative;
    transition: 0.5s ease;
    left: 0;
@@ -265,6 +274,12 @@ select {
    margin-right: 5px;
    border-radius: 100%;
    transition: 0.3s ease;
+   background-color: white;
+}
+@media (max-width: 1878px) {
+   .next, .prev {
+      display: none;
+   }
 }
 .next:hover, .prev:hover {
    background-color: #365F91;
