@@ -46,9 +46,9 @@ select {
    font: inherit;}
 
 .conteiner {
-   background-image: url(img/1647335674_5-abrakadabra-fun-p-serii-fon-bez-nichego-5.jpg);
+   background-color: rgba(180, 180, 180, 0.500);
    width: 100%;
-   height: 1500px;
+   height: 1595px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -65,6 +65,11 @@ select {
    align-items: center;
    width: 50%;
    height: 100%;
+}
+@media (max-width: 450px) {
+   .nav_logo{
+      display: none;
+   }
 }
 .nav_contacts {
    width: 50%;
@@ -119,6 +124,11 @@ select {
    justify-content: center;
    align-items: center;
 }
+@media (max-width: 1000px) {
+   .over_block{
+      display: none;
+   }
+}
 .left_icon {
    background-color: rgb(0, 121, 219);
    height: 42%;
@@ -156,13 +166,6 @@ select {
    border: 1px solid rgb(177, 177, 177);
    width: 55.5%;
    height: 55%;
-}
-.category {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   width: 95%;
-   height: 30%;
 }
 .our_proj {
    display: flex;
@@ -205,6 +208,7 @@ select {
 .main_text {
    width: 80%;
    height: 95%;
+   margin-top: 1%;
 }
 .click {
    margin-top: 5px;
@@ -213,14 +217,14 @@ select {
    color: white;
    background: linear-gradient(#4478b8, #294a72);
    width: 95%;
-   height: 15%;
+   height: 10%;
 }
 #click {
    margin-top: 5px;
    display: flex;
    align-items: center;
    width: 95%;
-   height: 15%;
+   height: 10%;
    border: 3px double rgb(177, 177, 177);
    transition: 0.3s ease;
 }
@@ -249,6 +253,7 @@ select {
 }
 .fotter_bar {
    width: 33%;
+   margin-top: 5%;
 }
 .slider {
    width: 45%;
@@ -313,15 +318,50 @@ select {
 .content_block {
    display: flex;
    align-items: center;
+   font-size: 15px;
 }
 .left_Text_On {
    margin-left: 90%;
    width: 300px;
    transform: rotate(90deg);
-   background-color: white;
    border-radius: 5px;
 }
+#instruments {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
 .down_photo {
+   border: 1px solid #294a72;
+   width: 275px;
+   height: 140px;
+   margin: 5px;
+}
+#category {
    display: flex;
    flex-direction: row;
+   justify-content: space-between;
+   width: 95%;
+   height: 20%;
+}
+.category {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 95%;
+   height: 60%;
+}
+@media (max-width: 1270px) {
+   .bar{
+      display: none;
+   }
+}
+@media (max-width: 1060px) {
+   .down_photo{
+      width: 180px;
+      height: 56px;
+   }
 }

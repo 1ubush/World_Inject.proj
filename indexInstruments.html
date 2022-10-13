@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>World Inject (Instruments)</title>
    <link rel="stylesheet" href="style.css">
+   <script src="script/massive.js"></script>
 </head>
 
 <body>
@@ -44,7 +45,7 @@
 
       <div class="over_block">
          <div class="left_icon">
-            <img class="left_Text_On" src="img/leftText.png" alt="Left text">
+            <img class="left_Text_On" src="img/31223.png" alt="Left text">
          </div>
          <div class="main_photo">
             <div class="slider">
@@ -58,8 +59,8 @@
                   </script>
                </div>
             </div>
-            <button style="position: absolute; margin-left: 440px; margin-top: 210px;" class="next">&#10230</button>
-            <button style="position: absolute; margin-left: 5px; margin-top: 210px;" class="prev">&#10229</button>
+            <button style="position: absolute; margin-left: 440px; margin-top: 200px;" class="next">&#10230</button>
+            <!-- <button style="position: absolute; margin-left: 5px; margin-top: 210px;" class="prev">&#10229</button> -->
          </div>
          <div class="right_icon"></div>
       </div>
@@ -71,16 +72,16 @@
                      Меню
                   </span>
                   <span id="click">
-                     <a class="tt" href="#"> &#8658 Обладнання</a>
+                     <a class="tt" href="indexInstruments.html"> &#8658 Обладнання</a>
                   </span>
                </div>
-               <div class="information">
+               <div id="instruments">
                   <script>
                      for (let i = 0; i < 5; i++) {
                         document.write(`
                         <img class="down_photo" src="img/${i + 1}.jpg" alt="#">
+                        <p style="color: #365F91; text-align: center;">Engel: Victory ${namesInstrument[0 + i]}</p>
                         `)
-                        
                      }
                   </script>
                </div>
@@ -97,13 +98,12 @@
       <footer class="footer">
          <center style=" color: white;">
             Copyright © 2022 <b>World Inject</b> Rights Reserved. <br>
-            Designed by pipale.
+            Designed by Vobu.
          </center>
       </footer>
    </div>
 
 
-   <script src="script/massive.js"></script>
    <script src="script/slider.js"></script>
 </body>
 
