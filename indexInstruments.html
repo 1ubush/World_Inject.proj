@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>World Inject (contacts)</title>
+   <title>World Inject (Instruments)</title>
    <link rel="stylesheet" href="style.css">
 </head>
 
@@ -71,14 +71,18 @@
                      Меню
                   </span>
                   <span id="click">
-                     <a class="tt" href="#"> &#8658 Контакти</a>
+                     <a class="tt" href="#"> &#8658 Обладнання</a>
                   </span>
                </div>
                <div class="information">
-                  <div class="information_blocks">
-                     <a href=""></a>
-                     <script src="script/script.js"></script>
-                  </div>
+                  <script>
+                     for (let i = 0; i < 5; i++) {
+                        document.write(`
+                        <img class="down_photo" src="img/${i + 1}.jpg" alt="#">
+                        `)
+                        
+                     }
+                  </script>
                </div>
          </div>
          <div class="our_proj">

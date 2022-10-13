@@ -314,3 +314,14 @@ select {
    display: flex;
    align-items: center;
 }
+.left_Text_On {
+   margin-left: 90%;
+   width: 300px;
+   transform: rotate(90deg);
+   background-color: white;
+   border-radius: 5px;
+}
+.down_photo {
+   display: flex;
+   flex-direction: row;
+}
