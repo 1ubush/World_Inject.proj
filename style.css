@@ -317,7 +317,8 @@ select {
 }
 .content_block {
    display: flex;
-   align-items: center;
+   flex-direction: column;
+   justify-content: space-between;
    font-size: 15px;
 }
 .left_Text_On {

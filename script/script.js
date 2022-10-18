@@ -11,9 +11,9 @@ for (let i = 1; i < 6; i++) {
    document.write(`
    <div class="info_block">
       <div class="content_block">
-         ${baglay[-1 + i] + "<br>"} <br>
-         ${two[-1 + i] + "<br>"} <br>
-         ${kolesnichenko[-1 + i]}
+         <a href="mailto:worldinject@ukr.net">${baglay[-1 + i] + "<br>"}</a> <br>
+         <a href="mailto:wasserprojekt@radoy.com.ua">${two[-1 + i] + "<br>"}</a> <br>
+         <a href="mailto:wasserprojekt@radoy.com.ua">${kolesnichenko[-1 + i]}</a>
       </div>
    </div>
    `);
